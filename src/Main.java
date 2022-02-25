@@ -10,7 +10,7 @@ public class Main {
     System.out.println("It works!");
   }
 
-  void GreetUser() {
+  void WelcomeUser() {
     System.out.print("Please enter your name: ");
     String name = in.nextLine();
     System.out.println("Hi: " + name);
@@ -25,7 +25,7 @@ public class Main {
 
   void go() {
     StartMessage();
-    GreetUser();
+    WelcomeUser();
     AskAboutAge();
   }
 
