@@ -34,12 +34,18 @@ public class Main {
     System.out.println("You entered: " + number);
   }
 
+  void ThisIsTheEnd() {
+
+    System.out.println("Lets end here!");
+  }
+
   void go() {
     StartMessage();
     WelcomeUser();
     AskAboutAge();
     HelloWorld();
     EnterNumber();
+    ThisIsTheEnd();
   }
 
   public static void main(String[] args) {
