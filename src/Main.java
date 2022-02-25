@@ -8,7 +8,7 @@ public class Main {
 
   void StartMessage() {
     System.out.println("It works!");
-    System.out.println("dette er en ændring"); // ændring her <----
+    System.out.println("dette er en ændring"); // ændring her <---- sdf
   }
 
   void WelcomeUser() {
