@@ -27,11 +27,19 @@ public class Main {
     System.out.println("Hello, World");
   }
 
+  void EnterNumber() {
+
+    System.out.print("Enter a number: ");
+    int number = in.nextInt();
+    System.out.println("You entered: " + number);
+  }
+
   void go() {
     StartMessage();
     WelcomeUser();
     AskAboutAge();
     HelloWorld();
+    EnterNumber();
   }
 
   public static void main(String[] args) {
