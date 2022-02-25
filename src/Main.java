@@ -22,11 +22,16 @@ public class Main {
     System.out.println("You are: " + age + " years old.");
 
   }
+  void HelloWorld() {
+
+    System.out.println("Hello, World");
+  }
 
   void go() {
     StartMessage();
     WelcomeUser();
     AskAboutAge();
+    HelloWorld();
   }
 
   public static void main(String[] args) {
